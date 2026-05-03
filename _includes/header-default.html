@@ -6,7 +6,7 @@
         </div>
 
         <h1>
-            <span class="site-title">[{{site.username}}]</span>
+            <span class="site-title">{{site.username}}</span>
         </h1>
 
         <div class="icons-home">
@@ -34,8 +34,14 @@
             <h3 style="color:white;" >Recent projects:</h3>
              {% for project in site.projects limit:3%}
                 <li>
-                    <a title="Show my recent project" href="{{ project.url}}">
-                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                   
+                    <h2 class="post-title" itemprop="name">Desenvolvedor Java, POO e Encapsulamento</h2>
+                     <h2 class="post-title" itemprop="name"> POO e Encapsulamento: Estruturei um sistema de biblioteca utilizando classes e atributos privados para garantir a segurança dos dados.
+Controle de Fluxo: Desenvolvi funções de empréstimo e devolução com atualização automática de status e interação via console.</h2>
+                
+                     <h2 class="post-title" itemprop="name">Gestão Acadêmica em Java, Lógica de Negócio e Cálculos</h2>
+                     <h2 class="post-title" itemprop="name"> Implementei um sistema para registro de estudantes e cálculo automático de médias aritméticas utilizando métodos da classe Aluno.
+Filtragem de Dados: Desenvolvi um menu interativo para consulta de informações, permitindo a filtragem dinâmica de alunos aprovados, reprovados ou por maior média</h2>
                     </a>
                 </li>
               {% endfor %}
