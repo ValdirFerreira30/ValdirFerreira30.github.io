@@ -25,18 +25,6 @@ compress_html:
   profile: false
 
 # Links to include in menu navigation
-links:
-  section_1:
-    - title: home
-      url: /
-      key_trigger: 1
-    - title: about me
-      url: /about
-      key_trigger: 5
-  section_2:
-    - title: search
-      url: ""
-      key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
