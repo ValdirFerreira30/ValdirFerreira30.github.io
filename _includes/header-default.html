@@ -23,14 +23,11 @@
         </div>
 
         <ul class="recent">
-            <p>Recent posts:</p>
-             {% for post in site.posts limit:3%}
+            <p>Sobre mim:</p>
                 <li>
-                    <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                    <h2 class="post-title" itemprop="name">Estudante de Engenharia Informática com interesse em desenvolvimento de software, com foco em Java e bases de dados. Tenho vindo a desenvolver projetos práticos que envolvem lógica de programação, estruturas de dados e organização de código. Valorizo a aprendizagem contínua, a resolução de problemas e o desenvolvimento de soluções eficiente</h2>
                     </a>
                 </li>
-              {% endfor %}
         </ul>
 
         <ul class="recent">
